@@ -1,0 +1,22 @@
+authtoken: 1xCw2Er3WNg96WtvI9RCeBWgI78_34YpT55Vy1xt9JdyCz1Xg
+tunnels:
+    coder-a:
+        proto: http
+        addr: 8080
+        # subdomain: transformation-coder-sw
+        # basic_auth:
+        #     - "login-name:password"
+    coder-b:
+        proto: http
+        addr: 8081
+        # subdomain: transformation-coder-jle
+        # basic_auth:
+        #     - "login-name:password"
+    coder-c:
+        proto: http
+        addr: 8082
+        # subdomain: transformation-coder-ck
+        # basic_auth:
+        #     - "login-name:password"
+version: "2"
+region: eu
